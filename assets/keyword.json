@@ -1,0 +1,136 @@
+{
+	"root": [
+		{
+			"language": "Java",
+			"details": [
+				{
+					"keyword": "abstract(class)",
+					"description": "The abstract class modifier describes a class that has abstract methods.Abstract methods are declared with the abstract keyword and are empty (that is, they have no block defining a body of code for this method). \nA class that has nothing but abstract methods and no instance variables is more properly called an interface, so an abstract class usually has a mixture of abstract methods and actual methods."
+				},
+				{
+					"keyword": "final(class)",
+					"description": "The final class modifier describes a class that can have no subclasses."
+				},
+				{
+					"keyword": "public",
+					"description": "The public class modifier describes a class that can be instantiated or extended by anything in the same package or by anything that imports the class. Public classes are declared in their own separate file called classname. java, where classname is the name of the class. Anyone can access public instance variables."
+				},
+				{
+					"keyword": "protected",
+					"description": "Only methods of the same package or of its subclasses can access protected instance variables."
+				},
+				{
+					"keyword": "private",
+					"description": "Only methods of the same class (not methods of a subclass) can access private instance variables."
+				},
+				{
+					"keyword": "static",
+					"description": "The static keyword is used to declare a variable that is associated with the class, not with individual instances of that class. Static variables are used to store global information about a class (for example, a static variable could be used to maintain the total number of Gnome objects created). Static variables exist even if no instance of their class is created."
+				},
+				{
+					"keyword": "final(variable)",
+					"description": "A final instance variable is one that must be assigned an initial value, and then can never be assigned a new value after that. If it is a base type, then it is a constant (like the MAX_HEIGHT constant in the Gnome class). \nIf an object variable is final, then it will always refer to the same object (even if that object changes its internal state)."
+				},
+				{
+					"keyword": "abstract(method)",
+					"description": "A method declared as abstract has no code. The signature of such a method is followed by a semicolon with no method body. For example:\npublic abstract void setHeight (double newHeight);\nAbstract methods may only appear within an abstract class."
+				},
+				{
+					"keyword": "abstract",
+					"description": "value"
+				}
+			]
+		},
+		{
+			"language": "C",
+			"details": [
+				{
+					"keyword": "dummy keyword",
+					"description": "dummy desc."
+				},
+				{
+					"keyword": "dummy keyword 2",
+					"description": "dummy desc. 2"
+				}
+			]
+		},
+		{
+			"language": "C++",
+			"details": [
+				{
+					"keyword": "dummy keyword",
+					"description": "dummy desc."
+				},
+				{
+					"keyword": "dummy keyword 2",
+					"description": "dummy desc. 2"
+				}
+			]
+		},
+		{
+			"language": "Python",
+			"details": [
+				{
+					"keyword": "dummy keyword",
+					"description": "dummy desc."
+				},
+				{
+					"keyword": "dummy keyword 2",
+					"description": "dummy desc. 2"
+				}
+			]
+		},
+		{
+			"language": "PHP",
+			"details": [
+				{
+					"keyword": "dummy keyword",
+					"description": "dummy desc."
+				},
+				{
+					"keyword": "dummy keyword 2",
+					"description": "dummy desc. 2"
+				}
+			]
+		},
+		{
+			"language": "Dart",
+			"details": [
+				{
+					"keyword": "dummy keyword",
+					"description": "dummy desc."
+				},
+				{
+					"keyword": "dummy keyword 2",
+					"description": "dummy desc. 2"
+				}
+			]
+		},
+		{
+			"language": "Go",
+			"details": [
+				{
+					"keyword": "dummy keyword",
+					"description": "dummy desc."
+				},
+				{
+					"keyword": "dummy keyword 2",
+					"description": "dummy desc. 2"
+				}
+			]
+		},
+		{
+			"language": "Javascript",
+			"details": [
+				{
+					"keyword": "dummy keyword",
+					"description": "dummy desc."
+				},
+				{
+					"keyword": "dummy keyword 2",
+					"description": "dummy desc. 2"
+				}
+			]
+		}
+	]
+}
